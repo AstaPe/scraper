@@ -1,0 +1,6 @@
+Name                                               Speed                Price      Company   
+==========================================================================================
+5G nešiojamas namų internetas                       500 Mbps            10,90      talia     
+5G fiksuota stotelė namams                          1,27 Gbps           37,90      talia     
+Šviesolaidinis namų internetas                      2 Gbps              13,90      talia     
+Plačiajuostis namų internetas                       250 Mbps            14,90      talia     
