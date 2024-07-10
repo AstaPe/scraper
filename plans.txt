@@ -1,6 +1,66 @@
 Name                                               Speed                Price      Company   
 ==========================================================================================
-5G nešiojamas namų internetas                       500 Mbps            10,90      talia     
-5G fiksuota stotelė namams                          1,27 Gbps           37,90      talia     
-Šviesolaidinis namų internetas                      2 Gbps              13,90      talia     
-Plačiajuostis namų internetas                       250 Mbps            14,90      talia     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     
+5G nešiojamas namų internetas                      500 Mbps             10,90      telia     
+5G fiksuota stotelė namams                         1,27 Gbps            37,90      telia     
+Šviesolaidinis namų internetas                     2 Gbps               13,90      telia     
+Plačiajuostis namų internetas                      250 Mbps             14,90      telia     
+INTERNETAS 250                                     250 Mbps             12.90      penki     
+INTERNETAS 500                                     500 Mbps             16.90      penki     
+INTERNETAS 1000                                    1 Gbps               15.00      penki     
+INTERNETAS 2500                                    2.5 Gbps             29.90      penki     

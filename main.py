@@ -1,32 +1,39 @@
-from playwright.sync_api import sync_playwright, Locator
-from dataclasses.product import InternetPlan
+from playwright.sync_api import sync_playwright, Page
+from classes.product import InternetPlan
+from pages.penki import get_penki_plans
+from pages.telia import get_telia_plans
 
-def save_plans_to_txt(plans:list[InternetPlan], filename="plans.txt"):
-    with open(filename, 'w', encoding='utf-8') as file:
-        # Write headers
-        file.write(f"{'Name':<50} {'Speed':<20} {'Price':<10} {'Company':<10}\n")
-        file.write("="*90 + "\n")
-        # Write plan details
-        for plan in plans:
-            file.write(f"{plan.name:<50} {plan.speed:<20} {plan.price:<10} {plan.company:<10}\n")
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-            
-            
+def plans_to_dataframe(plans):
+    data = {
+        "Name": [plan.name for plan in plans],
+        "Speed": [plan.speed for plan in plans],
+        "Price": [plan.price for plan in plans],
+        "Company": [plan.company for plan in plans]
+    }
+    return pd.DataFrame(data)
+
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
-    page = browser.new_page()
-    page.goto("https://www.telia.lt/privatiems/internetas")
-    products = page.locator(".component__content .row .px-sm-20")
+    page: Page = browser.new_page()
+    telia_plans = get_telia_plans(page)
+    penki_plans = get_penki_plans(page)
     
-    plans:list[InternetPlan] = []
-    
-    for i in range(products.count()):
-        name = products.nth(i).locator("a").first.text_content()
-        speed = products.nth(i).locator("strong").text_content().split('Nuo')[0].split('iki')[1]
-        price = products.nth(i).locator(".price").text_content()
-        
-        plan = InternetPlan(name=name, speed=speed, price=price, company="talia")
-        plans.append(plan)
-    
-    
-    save_plans_to_txt(plans)
+    all_plans = telia_plans + penki_plans
+    df = plans_to_dataframe(all_plans)
+    browser.close()
+
+
+# Plotting the data
+plt.figure(figsize=(12, 8))
+sns.barplot(data=df, y='Speed', x='Price', hue='Company', ci=None, orient='h')
+
+plt.title('Palyginimas')
+plt.xlabel('Kaina (€)')
+plt.ylabel('Greitis')
+plt.legend(title='Tiekėjas')
+plt.grid(True)
+plt.show()
