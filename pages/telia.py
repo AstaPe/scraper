@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright, Locator, Page
+from playwright.sync_api import Page
 from utils.save_to_file import save_plans_to_txt
 from classes.product import InternetPlan
 

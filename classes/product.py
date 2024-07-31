@@ -3,7 +3,7 @@ from dataclasses import dataclass
 @dataclass
 class InternetPlan:
     name: str
-    price: float
-    speed: int
+    price: str
+    speed: str
     company:str
     

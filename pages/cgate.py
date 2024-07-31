@@ -5,7 +5,7 @@ from classes.product import InternetPlan
 def get_penki_plans(page: Page):
     
     link = "https://www.cgates.lt/internetas/sviesolaidinis-internetas"
-    company_name = 'penki'
+    company_name = 'cgate'
     products = page.locator("//div/p/span[contains(text(),'INTERNETAS')]/ancestor::div[@class='vc_column-inner']")
     
     page.goto(link)

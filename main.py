@@ -1,6 +1,5 @@
 from playwright.sync_api import sync_playwright, Page
-from classes.product import InternetPlan
-from pages.penki import get_penki_plans
+from pages.cgate import get_penki_plans
 from pages.telia import get_telia_plans
 
 import pandas as pd
@@ -36,4 +35,18 @@ plt.xlabel('Kaina (€)')
 plt.ylabel('Greitis')
 plt.legend(title='Tiekėjas')
 plt.grid(True)
+plt.show()
+
+
+count_data = df['Company'].value_counts()
+
+# Create a bar plot
+plt.figure(figsize=(6, 4))
+count_data.plot(kind='bar', color=['blue', 'orange'])  # You can customize colors as needed
+
+plt.title('Count of Internet Plans by Company')
+plt.xlabel('Company')
+plt.ylabel('Number of Plans')
+plt.xticks(rotation=0)  # Rotate x labels if needed
+plt.grid(axis='y')
 plt.show()
